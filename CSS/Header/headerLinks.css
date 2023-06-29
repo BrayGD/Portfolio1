@@ -1,0 +1,20 @@
+.headerPrincipal-nav_link{
+    width: 100%;
+	text-align: center;
+	border-top: 1px solid #0154C1;
+	border-bottom: 1px solid #0154C1;
+	background-color: #1D1D1D;
+}
+.headerPrincipal-nav_link:hover{
+    background-color: #0154C1;
+}
+
+
+.headerPrincipal-nav_link a{
+    font-size: 1.3rem;
+    display: block;
+	padding: 15px 0;
+	color: #A5A5A5;
+	text-decoration: none;
+	
+}

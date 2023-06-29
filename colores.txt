@@ -1,0 +1,63 @@
+- Colores de fondo
+background-nav: #1D1D1D;
+background-Aboutme: #0D0C0C;
+background-passions: #0D0C0C;
+background-skills: #0D0C0C;
+background-portfolio: #0D0C0C;
+background-contactme: #0D0C0C;
+background-footer: #A5A5A5;
+
+- Borda
+border-cabecera-mobile: #0154C1;
+
+- Botón
+boton-boerder: #0154C1;
+
+- Fuente
+fuente-tutulo.principal: #FFFFFF;
+fuente-nav: #A5A5A5;
+fuente-titulos-secundarios #0154C1
+
+logos
+
+colores-logos: #7777777;
+
+.moreContact .contacto img:hover::before{
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #1D1D1D;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #0154C1;
+	transition: opacity 0.3s ease-in-out;
+    
+}
+
+.moreContact .contacto.linkedin img:hover::before{
+    box-shadow: 0 0 20px 10px rgb(0, 119, 181)
+
+}
+
+.moreContact .contacto.telegram img:hover::before{
+    box-shadow: 0 0 20px 10px rgb(34, 158, 217)
+}
+
+.moreContact .contacto.twitter img:hover::before{
+    box-shadow: 0 0 20px 10px rgb(29, 161, 242)
+}
+
+.moreContact .contacto.whatsapp img:hover::before{
+    box-shadow: 0 0 20px 10px rgb(37, 211, 102)
+}
+
+.moreContact .contacto{
+    position: relative;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+
+}

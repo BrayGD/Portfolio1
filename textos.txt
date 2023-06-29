@@ -1,0 +1,80 @@
+-- HEAD --
+Bray Dev 
+Mi logo
+
+--- HEADER ---
+
+logo 
+Brayan
+Web developer
+
+About
+My passions
+My Skills
+Work
+Contact
+
+--- LLAMADA ---
+
+Hi,
+I'm logo rayan
+Web Developer
+Front End Developer
+
+contact me!
+
+--- About me ---
+
+Hi everyone! I'm Brayan Gayosso, a passionate web developer who believes in the power of technology to enhance our lives. I love creating dynamic and engaging websites that provide an exceptional user experience.
+Ever since I discovered my passion for programming, I have been working hard to perfect my skills in web development. I'm excited to work on new and exciting projects and help bring your vision to life. 
+
+--- My passions ---
+
+Financial education
+reading
+movies 
+traveling 
+blockchain 
+technology 
+web 3 
+cryptocurrencies
+NFTs 
+metaverse
+spending time with my family and friends.
+
+--- My Skills ---
+logos con hover
+
+HTML
+CSS 
+SASS
+JavaScript
+React
+Git
+GitHub
+Illustrator
+Photoshop
+Figma
+
+
+
+--- Work ---
+
+nombres de mis proyectos
+
+
+--- Contact ---
+
+logos de redes de Contacto
+ en hover 
+
+ whatsapp
+ telegram
+ twitter
+ Linkedin
+
+
+--- FOOTER ---
+Designed & Built by Brayan Gayosso
+
+icono con corazon 

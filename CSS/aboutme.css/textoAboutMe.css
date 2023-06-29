@@ -1,0 +1,14 @@
+.destacado_perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.destacado_text{
+    color: #e9e3e3;
+    text-align: justify;
+    width: 90%;
+    margin-top: 2%;
+}

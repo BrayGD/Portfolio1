@@ -1,0 +1,48 @@
+.elemento_bootom {
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    border-radius: 15%;
+  }
+  
+  .elemento_bootom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0 5px #013477, 0 0 10px #063470, 0 0 15px #091e3a, 0 0 20px #022b61, 0 0 25px #011c3f;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .elemento_bootom:hover::before {
+    opacity: 0.5s;
+  }
+  
+  .elemento_bootom:hover {
+    background-color: #0154C1;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .glow-button {
+    box-shadow: 0 0 5px #0154C1, 0 0 10px #0154C1, 0 0 15px #0154C1, 0 0 20px #0154C1, 0 0 25px #0154C1 inset;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #0154C1, 0 0 10px #0154C1, 0 0 15px #0154C1, 0 0 20px #0154C1, 0 0 25px #0154C1 inset;
+    }
+    100% {
+      box-shadow: 0 0 20px #0154C1, 0 0 25px #0154C1, 0 0 30px #0154C1, 0 0 35px #0154C1, 0 0 40px #0154C1 inset;
+    }
+  }

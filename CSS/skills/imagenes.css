@@ -1,0 +1,93 @@
+.skills_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.skills_container .imagen:hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    box-shadow: 0 0 20px 10px #f06529; 
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .skills_container .imagen.html:hover::before {
+    box-shadow: 0 0 20px 10px #f06529;
+  }
+  
+  .skills_container .imagen.css:hover::before {
+    box-shadow: 0 0 20px 10px #0154C1;
+  }
+  
+  .skills_container .imagen.javascript:hover::before {
+    box-shadow: 0 0 20px 10px #f0db4f;
+  }
+
+  .skills_container .imagen.sass:hover::before {
+    box-shadow: 0 0 20px 10px #cc6699;
+  }
+
+  .skills_container .imagen.react:hover::before {
+    box-shadow: 0 0 20px 10px #61dbfb;
+  }
+
+  .skills_container .imagen.git:hover::before {
+    box-shadow: 0 0 20px 10px #f34f29;
+  }
+
+  .skills_container .imagen.github:hover::before {
+    box-shadow: 0 0 20px 10px #fff;
+  }
+
+  .skills_container .imagen.photoshop:hover::before {
+    box-shadow: 0 0 20px 10px #3c327b;
+  }
+
+  .skills_container .imagen.illustrator:hover::before {
+    box-shadow: 0 0 20px 10px #ff8000;
+  }
+
+  .skills_container .imagen.figma:hover::before {
+    box-shadow: 0 0 20px 10px #ff0080;
+  }
+
+.skills_container .imagen{
+  position: relative;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills_container .imagen img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+
+.skills_container .imagen .nombre_texto {
+    color: #fff;
+    font-weight: 200;
+    display: none;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+
+
+
+.skills_container .imagen:hover .nombre_texto{
+    display: flex;
+
+}

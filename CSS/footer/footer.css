@@ -1,0 +1,22 @@
+.pie_pagina{
+    width: 100vw;
+    height: 70px;
+    background-color: #A5A5A5;
+    color: #0154C1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -220px;
+    margin-top: 100px;
+}
+
+.pie_pagina p{
+    margin-left: 220px;
+    font-size: 20px;
+}
+
+.pie_pagina span{
+    margin-left: 220px;
+    margin-top: 10px;
+}

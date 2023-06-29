@@ -1,0 +1,19 @@
+.text_tittle{
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 1000;
+
+}
+.tittle_line {
+    display: inline-block;
+}
+
+.tittle_letter {
+    display: inline-block;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .tittle_letter:hover {
+    transform: translateX(10px) rotate(10deg);
+    color: #0154C1;
+  }

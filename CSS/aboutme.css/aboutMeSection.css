@@ -1,0 +1,9 @@
+.about{
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 20rem 0px;
+    
+}
